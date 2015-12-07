@@ -293,6 +293,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m8-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
