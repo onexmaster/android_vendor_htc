@@ -48,9 +48,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
         vendor/htc/m8-common/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
         vendor/htc/m8-common/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
         vendor/htc/m8-common/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
@@ -99,10 +96,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
         vendor/htc/m8-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:/system/etc/firmware/cpp_firmware_v1_2_0.fw \
         vendor/htc/m8-common/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
-        vendor/htc/m8-common/proprietary/lib/libalDE_SDE_TWO.so:/system/lib/libalDE_SDE_TWO.so \
         vendor/htc/m8-common/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
         vendor/htc/m8-common/proprietary/lib/libalDynamicWarping_REC.so:/system/lib/libalDynamicWarping_REC.so \
-        vendor/htc/m8-common/proprietary/lib/libalDynamicWarping_SDW_TWO.so:/system/lib/libalDynamicWarping_SDW_TWO.so \
         vendor/htc/m8-common/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/m8-common/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/m8-common/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
@@ -211,7 +206,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_vd6869.so:/system/vendor/lib/libmmcamera_vd6869.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
@@ -262,11 +256,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
         vendor/htc/m8-common/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/m8-common/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
-        vendor/htc/m8-common/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
-        vendor/htc/m8-common/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/m8-common/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/m8-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8-common/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
@@ -279,18 +270,19 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m8-common/proprietary/vendor/lib/libdrmdiag.so:/system/vendor/lib/libdrmdiag.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
         vendor/htc/m8-common/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
+        vendor/htc/m8-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
-        vendor/htc/m8-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
-        vendor/htc/m8-common/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
